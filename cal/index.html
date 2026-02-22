@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="stylles.css">
+</head>
+<body>
+
+    <h1> Calculadora de imc</h1>
+    <h3> Olá, hoje iremos calcular seu imc!</h3>
+    <p> Para isso, basta preencher os campos abaixo e clicar no botão "Calcular".</p>
+    <p> Qual o seu peso? </p>
+
+    <input type="number" id="peso" placeholder="Digite seu peso em kg">
+
+    <p> Qual a sua altura? </p>
+
+    <input type="number" id="altura" placeholder="Digite sua altura em metros com ponto (ex: 1.75)">
+
+    <button onclick="calcularImc()" id="botão"> Calcular </button>
+     <!--o comando onclick é
+     para que quando o usuário clicar no botão, a função calcularImc() seja executada,
+    realizando o cálculo do imc. -->
+      <input type="text" id="resultado" placeholder="Seu imc aparecerá aqui" readonly>
+   
+</body>
+</html>
